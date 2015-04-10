@@ -1,0 +1,19 @@
+<resources>
+
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a0a0a0</color>
+  
+    <color name="actionbar_bg">#f96f00</color>
+    <color name="actionbar_btn_pressed_bg">#990033</color>
+    <color name="actionbar_btn_normal_bg">#f15a25</color>
+    
+    <!-- Input layout -->    
+    <color name="normal_button_normal_bg">#fa6e00</color>
+    <color name="normal_button_press_bg">#A0522D</color>
+    <color name="input_bg">#f2f2f2</color>
+    <color name="input_edittext_bg">#00000000</color>
+    
+    <color name="orange">#FF5F00</color>
+</resources>

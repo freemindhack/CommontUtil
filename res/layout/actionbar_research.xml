@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/actionbar_bg"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/name_layout"
+        style="@style/input_layout_style"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toLeftOf="@+id/ly_actionbar_find"
+        android:background="@drawable/actionbar_find_edittext_selector" >
+
+        <ImageView
+            style="@style/find_aciontbar_input_layout_imageview_style"
+            android:paddingRight="5dp"
+            android:src="@drawable/search_top_icon_zoom" />
+
+        <EditText
+            android:id="@+id/et_actionbar_find"
+            style="@style/find_input_layout_edittext_style"
+            android:hint="@string/input_info"/>
+        
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_actionbar_find"
+        android:layout_width="@dimen/research_bar_btn_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/actionbar_return_bg_selector"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_actionbar_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/find"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
